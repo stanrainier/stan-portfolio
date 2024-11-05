@@ -1,7 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import Header from "./components/header/header";
-import me from './assets/me.JPG'; 
 
 export default function Home() {
   return (
@@ -12,7 +11,7 @@ export default function Home() {
           <div className={styles.bigHeader}>
             Full Stack Developer
           </div>
-          <Image src={me} alt="Portrait" className={styles.portrait} />
+          <Image src="/assets/me.JPG" alt="Portrait" className={styles.portrait} />
           <div className={styles.bigHeader2}>
             Angular Framework Prodigy
           </div>
