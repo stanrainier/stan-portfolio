@@ -59,4 +59,10 @@
   padding: 200px;
 }
 
+.main {
+  will-change: transform;
+}
 
+.portrait, .bigHeader, .bigHeader2 {
+  will-change: transform, opacity;
+}
