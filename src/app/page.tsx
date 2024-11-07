@@ -6,6 +6,7 @@ import Header from "./components/header/header";
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Lenis from '@studio-freight/lenis';
+import 'animate.css';
 
 export default function Home() {
   const containerRef = useRef(null);
@@ -95,7 +96,7 @@ export default function Home() {
       <Header />
       <div className={styles.page}>
         <main className={styles.main}>
-          <div className={styles.bigHeader}>
+          {/* <div className={styles.bigHeader}>
             Full Stack Developer
           </div>
           <Image 
@@ -107,49 +108,72 @@ export default function Home() {
           />
           <div className={styles.bigHeader2}>
             Angular Framework Prodigy
-          </div>
-          <div className={styles.spacer}></div>
-          <div className={styles.bigHeader}>
-            ifypablo
-          </div>
-          <Image 
-            src="/assets/me.JPG" 
-            alt="Portrait" 
-            className={styles.portrait} 
-            width={500} 
-            height={500}
-          />
-          <div className={styles.bigHeader2}>
-            Music Producer
+          </div> */}
+          {/* <div className={styles.spacer}></div>  */}
+          <div className={styles.spacer}></div> 
+
+          <div className={`${styles.bigHeader3} animate__animated animate__tada`}>
+          Hi boo!
           </div>
 
+          <div className={styles.spacer}></div> 
+          <div className={styles.spacer}></div> 
+          <div className={styles.spacer}></div> 
+          <div className={styles.spacer}></div> 
+
           <div className={styles.bigHeader}>
-            Full Stack Developer
+            
+            Good luck on your board exams!
           </div>
           <Image 
-            src="/assets/me.JPG" 
+            src="/assets/amynMe.png" 
             alt="Portrait" 
-            className={styles.portrait} 
+            width={500} 
+            height={500}
+            className={styles.us1} 
+
+          />
+          <div className={styles.spacer}></div> 
+
+          <div className={styles.bigHeader2}>
+            I believe in you!
+          </div>
+          <Image 
+            src="/assets/us3.jpeg" 
+            alt="Portrait" 
+            width={500} 
+            height={500}
+            className={styles.us3} 
+
+          />
+          <div className={styles.spacer}></div> 
+          <div className={styles.spacer}></div> 
+          
+          <div className={styles.spacer}></div> 
+          <div className={styles.bigHeader}>
+            I love you!
+          </div>
+          <Image 
+            src="/assets/us4.jpg" 
+            alt="Portrait" 
+            className={styles.us} 
+            width={500} 
+            height={700}
+          />
+          <div className={styles.spacer}></div> 
+          <div className={styles.spacer}></div> 
+
+          <Image 
+            src="/assets/us.jpg" 
+            alt="Portrait" 
+            className={styles.us2} 
             width={500} 
             height={500}
           />
           <div className={styles.bigHeader2}>
-            Angular Framework Prodigy
+            My future topnotcher!
           </div>
           <div className={styles.spacer}></div>
-          <div className={styles.bigHeader}>
-            ifypablo
-          </div>
-          <Image 
-            src="/assets/me.JPG" 
-            alt="Portrait" 
-            className={styles.portrait} 
-            width={500} 
-            height={500}
-          />
-          <div className={styles.bigHeader2}>
-            Music Producer
-          </div>
         </main>
       </div>
     </div>

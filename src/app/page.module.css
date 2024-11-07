@@ -44,10 +44,20 @@
   font-size: 80px;
 }
 
+
+
+
 .bigHeader2{
   font-weight: 800;
   font-size: 80px;
   text-align: right;
+}
+
+.bigHeader3{
+  font-weight: 800;
+  font-size: 80px;
+  text-align: center;
+
 }
 
 .portrait{
@@ -65,4 +75,8 @@
 
 .portrait, .bigHeader, .bigHeader2 {
   will-change: transform, opacity;
+}
+
+.us3{
+  margin-left: 70%;
 }
